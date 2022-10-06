@@ -67,6 +67,12 @@ nav > div{
     margin-top: -20px;
  }
 
+ .channelPlayer{
+    margin: 0 auto;
+    margin-top: -20px;
+    width: 60%;
+ }
+
 
  .header{
     width: 50%;
