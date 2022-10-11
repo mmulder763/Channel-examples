@@ -67,6 +67,10 @@ nav > div{
     margin-top: -20px;
  }
 
+ a{
+    text-decoration: none;
+ }
+
  .channelPlayer{
     margin: 0 auto;
     margin-top: -20px;
@@ -78,21 +82,84 @@ nav > div{
     width: 50%;
     margin: 0 auto;
     display: block;
-    margin-top: 25px;
+    margin-top: 50px;
  }
 
- .atleticoButton{
+ .atleticoButton,
+ .azButton{
     width: 300px;
     height: 150px;
     background-color: #649BD2;
     border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.4s;
  }
 
- .atleticoButton > img{
+ .atleticoButton:hover,
+ .azButton:hover {
+    transform: scale(1.1);
+ }
+
+ .atleticoButton > img,
+ .azButton > img{
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 15px;
     padding-top: 16%;
+ }
+
+ .azButton > img{
+    width: 40%;
+ }
+
+ .allChannels {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin: 150px;
+ }
+
+ .atleticoLogo {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #649BD2;
+    border-radius: 10px;
+    margin-top: 50px;
+ }
+
+
+ .channelOptions {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 150px;
+ }
+
+ .channelOption{
+    width: 300px;
+    height: 150px;
+    background-color: #649BD2;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.4s;
+    position: relative;
+ }
+
+ .channelOption:hover{
+    transform: scale(1.1);
+ }
+
+ .channelOption > p {
+    text-decoration: none;
+    color: white ;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 150px; 
  }
