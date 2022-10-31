@@ -132,6 +132,15 @@ nav > div{
     margin-top: 50px;
  }
 
+.fundaLogo{
+   width: 25%;
+   display: block;
+   margin: 0 auto;
+   padding: 25px;
+   background-color: #649BD2;
+   border-radius: 10px;
+   margin-top: 50px;
+}
 
  .channelOptions {
     display: flex;
